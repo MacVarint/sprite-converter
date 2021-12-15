@@ -1,3 +1,9 @@
+function goat () {
+    goat2_1_0 = assets.image`goat0`
+    goat2_1_1 = assets.image`goat1`
+    goat2_1_2 = assets.image`goat2`
+    goat2_1_3 = assets.image`goat3`
+}
 function elephant () {
     elephant_0 = assets.image`Elephant0`
     elephant_1 = assets.image`Elephant1`
@@ -192,6 +198,11 @@ let elephant_3: Image = null
 let elephant_2: Image = null
 let elephant_1: Image = null
 let elephant_0: Image = null
+let goat2_1_3: Image = null
+let goat2_1_2: Image = null
+let goat2_1_1: Image = null
+let goat2_1_0: Image = null
 beaver()
 cow()
+goat()
 elephant()
